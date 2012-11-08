@@ -1,8 +1,14 @@
 # Sublime Text 2 settings
 
+
 ## Usage
 
 Clone the repository or just download the settings file and drop it in your `Sublime Text 2\Packages\User` folder (Windows)
+
+OR
+
+Click the Preferences.sublime-settings link in the repository browser (GitHub) and copy/paste that into your User Preferences.
+
 
 ## Sublime Text 2 packages you should use
 
