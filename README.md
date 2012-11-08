@@ -7,7 +7,7 @@ Clone the repository or just download the settings file and drop it in your `Sub
 
 OR
 
-Click the Preferences.sublime-settings link in the repository browser (GitHub) and copy/paste that into your User Preferences.
+Click the `Preferences.sublime-settings` link in the repository browser (GitHub) and copy/paste the file contents into your User Preferences.
 
 
 ## Sublime Text 2 packages you should use
