@@ -18,5 +18,7 @@ Then, using Package Control, install the following packages:
 
 * SublimeLinter
 * JSHint
+* CSSLint
 * DocBlockr
 * LiveReload
+* FileDiffs
