@@ -1,35 +1,11 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-
-	/**
-	 * Airbnb JSHint settings for use with SublimeLinter and Sublime Text 2.
-	 *
-	 *	 1. Install SublimeLinter at https://github.com/SublimeLinter/SublimeLinter
-	 *	 2. Open user preferences for the SublimeLinter package in Sublime Text 2
-	 *		 * For Mac OS X go to _Sublime Text 2_ > _Preferences_ > _Package Settings_ > _SublimeLinter_ > _Settings - User_
-	 *	 3. Paste the contents of this file into your settings file
-	 *	 4. Save the settings file
-	 *
-	 * @version 0.2.0
-	 * @see		 https://github.com/SublimeLinter/SublimeLinter
-	 * @see		 http://www.jshint.com/docs/
-	 */
 	"jshint_options": {
-		/*
-		 * ENVIRONMENTS
-		 * =================
-		 */
-
 		// Define globals exposed by modern browsers.
 		"browser": true,
 
@@ -38,11 +14,6 @@
 
 		// Define globals exposed by Node.js.
 		"node": true,
-
-		/*
-		 * ENFORCING OPTIONS
-		 * =================
-		 */
 
 		// Force all variable names to use either camelCase style or UPPER_CASE
 		// with underscores.
@@ -73,6 +44,21 @@
 		"unused": true,
 
 		// use strict not required
-		"strict": false
+		"strict": false,
+
+		// one var statement per function
+		"onevar": true,
+
+		// prohibit function declaration in loops
+		"loopfunc": false,
+
+		// require {}
+		"curly": true,
+
+		// no eval
+		"evil": false,
+
+		// wrap IIFE
+		"immed": true
 	}
 }
