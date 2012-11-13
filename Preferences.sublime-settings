@@ -5,6 +5,10 @@
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
+	// DocBlockr
+	"jsdocs_extend_double_slash": false,
+	"jsdocs_align_tags": "no",
+	// JSHint
 	"jshint_options": {
 		// Define globals exposed by modern browsers.
 		"browser": true,
@@ -38,7 +42,7 @@
 		"trailing": true,
 
 		// Prohibit the use of explicitly undeclared variables.
-		"undef": true,
+		"undef": false,
 
 		// Warn when variables are defined but never used.
 		"unused": true,
