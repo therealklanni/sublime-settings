@@ -22,4 +22,4 @@ Then, using Package Control, install the following packages:
 * DocBlockr
 * LiveReload
 * FileDiffs
-* [BrowserRefresh] (https://github.com/gcollazo/BrowserRefresh-Sublime "BrowserRefresh-Sublime")
+* [BrowserRefresh](https://github.com/gcollazo/BrowserRefresh-Sublime "BrowserRefresh-Sublime")
