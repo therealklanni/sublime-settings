@@ -23,3 +23,4 @@ Then, using Package Control, install the following packages:
 * LiveReload
 * FileDiffs
 * [BrowserRefresh](https://github.com/gcollazo/BrowserRefresh-Sublime "BrowserRefresh-Sublime")
+* [Emmet](http://docs.emmet.io/ "Emmet Documentation")
