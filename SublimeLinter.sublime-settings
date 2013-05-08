@@ -1,0 +1,7 @@
+{
+	"sublimelinter_notes": true,
+	"annotations": ["TODO", "README", "FIXME", "console.debug"],
+	"jshint_options": {
+		"evil": false
+	}
+}

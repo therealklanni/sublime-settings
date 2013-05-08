@@ -1,0 +1,14 @@
+[
+	{ "keys": ["ctrl+j"], "command": "join_lines" },
+	{ "keys": ["f1"], "command": "goto_documentation" },
+	{
+		"keys": ["alt+ctrl+shift+8"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.33, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	}
+]

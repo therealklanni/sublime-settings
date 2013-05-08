@@ -1,68 +1,36 @@
 {
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"font_size": 10,
 	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"jsdocs_align_tags": "no",
+	"jsdocs_extend_double_slash": false,
+	"jshint_options":
+	{
+		"browser": true,
+		"camelcase": true,
+		"curly": true,
+		"eqeqeq": true,
+		"eqnull": true,
+		"evil": false,
+		"immed": true,
+		"indent": 4,
+		"jquery": true,
+		"latedef": true,
+		"loopfunc": false,
+		"newcap": true,
+		"node": true,
+		"onevar": true,
+		"strict": false,
+		"trailing": true,
+		"undef": false,
+		"unused": true
+	},
 	"tab_size": 4,
 	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	// DocBlockr
-	"jsdocs_extend_double_slash": false,
-	"jsdocs_align_tags": "no",
-	// JSHint
-	"jshint_options": {
-		// Define globals exposed by modern browsers.
-		"browser": true,
-
-		// Define globals exposed by jQuery.
-		"jquery": true,
-
-		// Define globals exposed by Node.js.
-		"node": true,
-
-		// Force all variable names to use either camelCase style or UPPER_CASE
-		// with underscores.
-		"camelcase": true,
-
-		// Prohibit the use of == and != in favor of === and !==.
-		"eqeqeq": true,
-
-		// Suppress warnings about == null comparisons.
-		"eqnull": true,
-
-		// Enforce a tab width of 2 spaces.
-		"indent": 4,
-
-		// Prohibit the use of a variable before it was defined.
-		"latedef": true,
-
-		// Require capitalized names for constructor functions.
-		"newcap": true,
-
-		// Prohibit trailing whitespace.
-		"trailing": true,
-
-		// Prohibit the use of explicitly undeclared variables.
-		"undef": false,
-
-		// Warn when variables are defined but never used.
-		"unused": true,
-
-		// use strict not required
-		"strict": false,
-
-		// one var statement per function
-		"onevar": true,
-
-		// prohibit function declaration in loops
-		"loopfunc": false,
-
-		// require {}
-		"curly": true,
-
-		// no eval
-		"evil": false,
-
-		// wrap IIFE
-		"immed": true
-	}
+	"trim_trailing_white_space_on_save": true
 }

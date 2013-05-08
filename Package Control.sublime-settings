@@ -1,0 +1,22 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Color Highlighter",
+		"CSSLint",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Goto Documentation",
+		"JSHint",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Pretty JSON",
+		"Random HEX Color",
+		"SmartMarkdown",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"TortoiseSVN"
+	]
+}
