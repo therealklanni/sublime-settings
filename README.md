@@ -16,6 +16,8 @@ First, install [Package Control](http://wbond.net/sublime_packages/package_contr
 
 Then, using Package Control, install the following packages:
 
+* Git
+* GitGutter
 * SublimeLinter
 * JSHint
 * CSSLint
